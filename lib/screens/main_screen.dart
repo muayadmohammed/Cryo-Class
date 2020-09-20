@@ -1,4 +1,4 @@
-import 'package:TestApp/home_work/home_work.dart';
+import './home_work/home_work.dart';
 import 'package:TestApp/components/icon_badge.dart';
 import 'package:TestApp/screens/profile.dart';
 import 'package:flutter/material.dart';
