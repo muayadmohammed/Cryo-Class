@@ -38,9 +38,9 @@ class _HomeworkState extends State<Homework>
         elevation: 4,
         bottom: TabBar(
           controller: _tabController,
-          indicatorColor: Theme.of(context).accentColor,
-          labelColor: Theme.of(context).accentColor,
-          unselectedLabelColor: Theme.of(context).textTheme.caption.color,
+          // indicatorColor: Theme.of(context).accentColor,
+          // labelColor: Theme.of(context).accentColor,
+          // unselectedLabelColor: Theme.of(context).textTheme.caption.color,
           isScrollable: false,
           tabs: <Widget>[
             Tab(

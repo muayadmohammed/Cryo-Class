@@ -14,7 +14,6 @@ class Required extends StatefulWidget {
 }
 
 class _RequiredState extends State<Required> {
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -37,7 +36,9 @@ class _RequiredState extends State<Required> {
                     ),
                   );
                 },
-                child: Container(
+                child: 
+                
+                Container(
                     child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
@@ -137,6 +138,4 @@ class _RequiredState extends State<Required> {
     
         );
   }
-
-
 }
