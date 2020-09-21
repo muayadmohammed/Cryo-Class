@@ -35,7 +35,7 @@ class _MisssingState extends State<Misssing> {
                       borderRadius: BorderRadius.circular(20),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey[350],
+                          color: Colors.grey[300],
                           spreadRadius: 5,
                           blurRadius: 7,
                           offset: Offset(0, 3), // changes position of shadow
