@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'package:flutter/material.dart';
+
 Random random = Random();
 List names = [
   "Ling Waldner",
@@ -42,14 +44,31 @@ List notifs = [
   "${names[random.nextInt(10)]} Tagged you and ${random.nextInt(100)} others in a post",
   "${names[random.nextInt(10)]} Sent you a friend request",
 ];
-
+List icons = [
+  Icon(
+    Icons.thumb_up,
+    color: Colors.white,
+    size: 16,
+  ),
+  Icon(
+    Icons.comment,
+    color: Colors.white,
+    size: 16,
+  ),
+  Icon(
+    Icons.comment_bank,
+    color: Colors.white,
+    size: 16,
+  ),
+];
 List notifications = List.generate(
     13,
     (index) => {
           "name": names[random.nextInt(10)],
           "dp": "assets/cm${random.nextInt(10)}.jpeg",
           "time": "${random.nextInt(50)} min ago",
-          "notif": notifs[random.nextInt(10)]
+          "notif": notifs[random.nextInt(10)],
+          "icon":icons[random.nextInt(3)],
         });
 List homework = List.generate(
     13,
