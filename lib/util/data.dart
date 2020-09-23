@@ -56,7 +56,7 @@ List icons = [
     size: 16,
   ),
   Icon(
-    Icons.comment_bank,
+    Icons.notification_important,
     color: Colors.white,
     size: 16,
   ),
@@ -68,7 +68,7 @@ List notifications = List.generate(
           "dp": "assets/cm${random.nextInt(10)}.jpeg",
           "time": "${random.nextInt(50)} min ago",
           "notif": notifs[random.nextInt(10)],
-          "icon":icons[random.nextInt(3)],
+          "icon": icons[random.nextInt(3)],
         });
 List homework = List.generate(
     13,
