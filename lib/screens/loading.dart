@@ -1,8 +1,8 @@
 import 'dart:async';
-import 'package:TestApp/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 import 'Auth/Login.dart';
+import 'OnboardingScreen.dart';
 
 class Loading extends StatefulWidget {
   @override
@@ -30,12 +30,12 @@ class _LoadingState extends State<Loading> {
 
   void _navigateToLogin() {
     Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (BuildContext context) => Login()));
+        MaterialPageRoute(builder: (BuildContext context) => OnboardingScreen()));
   }
 
   void _navigateToHome() {
     Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (BuildContext context) => MainScreen()));
+        MaterialPageRoute(builder: (BuildContext context) => Login()));
   }
 
   @override
